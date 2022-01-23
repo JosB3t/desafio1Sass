@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-color: black; }
+  .header .logoHeader {
+    width: 30%;
+    border-radius: 20%; }
+  .header .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; }
+  .header .nav-link {
+    color: white;
+    font-size: 30px; }
+  .header .navbar-toggler {
+    background-color: white; }
+    .header .navbar-toggler .navbar-toggler-icon {
+      background-color: black; }
+
+.principal__div {
+  margin-top: 15px; }
+  .principal__div .weigth-400 {
+    font-size: 40px;
+    font-weight: bold; }
+  .principal__div .parraPrincipal {
+    text-align: justify; }
+
+.cta {
+  width: 130px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 10px 0;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+  transition: .5s; }
+  .cta:hover {
+    box-shadow: 0 0 20px yellow;
+    color: white; }
+
+.aboutMe {
+  display: grid;
+  background-color: black;
+  color: white;
+  height: auto;
+  padding: 120px;
+  margin: 0; }
+  .aboutMe .subtitulo__aboutMe {
+    grid-column: 1/-1;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    margin: 20px; }
+  .aboutMe .texto__aboutMe {
+    grid-column: 1/-1;
+    color: gray;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center; }
+  .aboutMe .numbers {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+  .aboutMe .number {
+    text-align: center;
+    font-size: 30px;
+    width: 22%; }
+  @media screen and (max-width: 1168px) {
+    .aboutMe .texto__aboutMe {
+      font-size: 100%;
+      text-align: justify; }
+    .aboutMe .subtitulo__aboutMe {
+      font-size: 100%;
+      padding-top: 40px;
+      margin: 3px; }
+    .aboutMe .numbers {
+      flex-direction: column;
+      align-content: center; }
+    .aboutMe .number {
+      font-size: 100%;
+      text-align: center; } }
+
+.miNuevaMision .texto__mission {
+  margin-top: 50px; }
+
+.miNuevaMision .parrafo__Mission {
+  text-align: justify; }
+
+.miNuevaMision .img__mission__principal {
+  display: flex;
+  justify-content: center; }
+
+.miNuevaMision .img__mission {
+  width: 40%; }
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 20px;
+  transition: .5s; }
+  footer:hover {
+    background: linear-gradient(50deg, #ededf5 17%, #5b11e6 66%, #00d4ff 100%); }
+  footer .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    margin: auto;
+    gap: 10px; }
+    footer .grid .textos-footer {
+      grid-column: 1/-1; }
+      footer .grid .textos-footer .subtitulo__footer {
+        font-size: 40px;
+        padding-bottom: 20px; }
+    footer .grid [class^="fab fa"] {
+      color: white;
+      font-size: 50px; }
+    footer .grid [class^="footer-img"] {
+      grid-column: span 4; }
+
+.derechos {
+  padding: 20px;
+  margin-top: 20px; }
+
+@media screen and (max-width: 1168px) {
+  .derechos {
+    font-size: 50%; } }

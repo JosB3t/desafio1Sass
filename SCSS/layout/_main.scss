@@ -1,0 +1,109 @@
+.principal__div{
+    margin-top: 15px;
+    .weigth-400{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .parraPrincipal{
+        text-align: justify;
+    }
+}
+
+.cta{
+    width: 130px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    transition: .5s;
+    &:hover{
+        box-shadow: 0 0 20px yellow;
+        color: white;    
+    }
+}
+
+.aboutMe{
+    display: grid;
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 120px;
+    margin: 0;
+    .subtitulo__aboutMe{
+        grid-column: 1/-1;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 40px;
+        margin: 20px;
+    }
+    .texto__aboutMe{
+        grid-column: 1/-1;
+        color: gray;
+        font-size: 30px;
+        padding: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .numbers{
+        grid-column: 1/-1;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .number{
+        text-align: center;
+        font-size: 30px;
+        width: 22%;
+    }
+    @media screen and (max-width:1168px){
+        .texto__aboutMe{
+            font-size: 100%;
+            text-align: justify;
+        }
+    
+        .subtitulo__aboutMe{
+            font-size: 100%;
+            padding-top: 40px;
+            margin: 3px;
+    
+        }
+    
+        .numbers{
+            flex-direction: column;
+            align-content: center;
+        }
+    
+        .number{
+            font-size: 100%;
+            text-align: center;
+        }  
+    }
+}
+
+.miNuevaMision{
+    .texto__mission{
+        margin-top: 50px;
+    }
+    .parrafo__Mission{
+        text-align: justify;
+    }
+    .img__mission__principal{
+        display: flex;
+        justify-content: center;
+    }
+    .img__mission{
+        width: 40%;
+    }
+    
+
+}
+
+
+
+
+
+
